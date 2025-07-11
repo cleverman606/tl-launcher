@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(135deg, #2196f3 0%, #00bcd4 100%);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.launcher-container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.12);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    padding: 32px 24px 24px 24px;
+    text-align: center;
+}
+.logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(33,150,243,0.2);
+}
+.title {
+    color: #2196f3;
+    font-size: 2.2rem;
+    margin-bottom: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.client-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+.client-box {
+    background: linear-gradient(135deg, #2196f3 60%, #00bcd4 100%);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 32px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(33,150,243,0.15);
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+    border: none;
+    outline: none;
+}
+.client-box:hover {
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0 6px 16px rgba(0,188,212,0.18);
+    background: linear-gradient(135deg, #00bcd4 60%, #2196f3 100%);
+}
